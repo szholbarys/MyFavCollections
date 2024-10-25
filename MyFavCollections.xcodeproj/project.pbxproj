@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		E80F13FD2CCC167D00AF8DE7 /* MyFavCollectionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80F13FC2CCC167D00AF8DE7 /* MyFavCollectionsApp.swift */; };
-		E80F13FF2CCC167D00AF8DE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80F13FE2CCC167D00AF8DE7 /* ContentView.swift */; };
+		E80F13FF2CCC167D00AF8DE7 /* MovieCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80F13FE2CCC167D00AF8DE7 /* MovieCollectionViewController.swift */; };
 		E80F14012CCC167D00AF8DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80F14002CCC167D00AF8DE7 /* Assets.xcassets */; };
 		E80F14042CCC167D00AF8DE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80F14032CCC167D00AF8DE7 /* Preview Assets.xcassets */; };
+		E80F140B2CCC16DC00AF8DE7 /* MovieCollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80F140A2CCC16DC00AF8DE7 /* MovieCollectionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E80F13F92CCC167D00AF8DE7 /* MyFavCollections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavCollections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80F13FC2CCC167D00AF8DE7 /* MyFavCollectionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavCollectionsApp.swift; sourceTree = "<group>"; };
-		E80F13FE2CCC167D00AF8DE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E80F13FE2CCC167D00AF8DE7 /* MovieCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewController.swift; sourceTree = "<group>"; };
 		E80F14002CCC167D00AF8DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E80F14032CCC167D00AF8DE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E80F140A2CCC16DC00AF8DE7 /* MovieCollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				E80F13FC2CCC167D00AF8DE7 /* MyFavCollectionsApp.swift */,
-				E80F13FE2CCC167D00AF8DE7 /* ContentView.swift */,
+				E80F140A2CCC16DC00AF8DE7 /* MovieCollectionsView.swift */,
+				E80F13FE2CCC167D00AF8DE7 /* MovieCollectionViewController.swift */,
 				E80F14002CCC167D00AF8DE7 /* Assets.xcassets */,
 				E80F14022CCC167D00AF8DE7 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80F13FF2CCC167D00AF8DE7 /* ContentView.swift in Sources */,
+				E80F13FF2CCC167D00AF8DE7 /* MovieCollectionViewController.swift in Sources */,
+				E80F140B2CCC16DC00AF8DE7 /* MovieCollectionsView.swift in Sources */,
 				E80F13FD2CCC167D00AF8DE7 /* MyFavCollectionsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
