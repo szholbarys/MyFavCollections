@@ -3,6 +3,8 @@
 ## Project Description
 This iOS application showcases a collection of classic movies in an elegant grid layout. Built using UIKit and featuring a custom UICollectionView implementation, the app demonstrates modern iOS development practices while providing an engaging user interface for browsing movie information.
 
+<img width="1430" alt="Screenshot 2024-10-25 at 23 24 49" src="https://github.com/user-attachments/assets/122799ed-0f18-49d9-a089-f484f48de2a8">
+
 ### Key Features
 - Grid-based collection view displaying movie posters
 - Custom-designed collection view cells with movie details
