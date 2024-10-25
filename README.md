@@ -42,7 +42,7 @@ The selected movies represent various genres and decades, showcasing the versati
 2. Open the project:
    ```bash
    cd [project-directory]
-   open FavoriteMovies.xcodeproj
+   open MyFavCollections.xcodeproj
    ```
 
 3. Add movie poster images:
@@ -72,8 +72,8 @@ The selected movies represent various genres and decades, showcasing the versati
 
 ## Code Structure
 - `MovieCollectionViewController`: Main view controller managing the collection view
-- `MovieCollectionViewCell`: Custom cell for displaying movie information
-- `Movie`: Structure defining the movie data model
+- `MovieCollectionView`: Custom cell for displaying movie information
+- `MyFavCollectionsApp`: Structure defining the movie data model
 
 ## Future Enhancements
 Potential improvements that could be added:
@@ -85,5 +85,5 @@ Potential improvements that could be added:
 - Category sorting options
 
 ## Credits
-Created by [Your Name] for iOS Development Assignment #7
+Created by Saken Zholbarys for iOS Development Assignment #7
 Movie posters sourced from respective movie studios
